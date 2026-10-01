@@ -3599,7 +3599,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping170 \
     libipebpsstriping480 \
     libjpege \
-    libmapperutils \
     libmctfengine_stub \
     libmfGhostDetection \
     libmfec \

@@ -6,7 +6,7 @@ soong_namespace {
     imports: [
         "vendor/motorola/sm7435-common",
         "hardware/motorola",
-        "hardware/qcom-caf/sm8450",
+        "hardware/qcom-caf/sm8450-6.6",
         "vendor/qcom/opensource/commonsys-intf/display",
     ],
 }
@@ -5657,44 +5657,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmapperutils",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmapperutils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libgralloctypes",
-                "libgrallocutils",
-                "libhidlbase",
-                "android.hardware.graphics.common@1.2",
-                "android.hardware.graphics.mapper@4.0",
-                "libbinder_ndk",
-                "libgralloc.qti",
-                "libutilscallstack",
-                "android.hardware.graphics.allocator-V2-ndk",
-                "libvndksupport",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
