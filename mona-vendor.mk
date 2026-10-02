@@ -3321,6 +3321,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mona/proprietary/vendor/etc/display/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
     vendor/motorola/mona/proprietary/vendor/etc/display/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json \
     vendor/motorola/mona/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint-service-rbs2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint-service-rbs2.rc \
+    vendor/motorola/mona/proprietary/vendor/etc/init/audiohalservice_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiohalservice_qti.rc \
     vendor/motorola/mona/proprietary/vendor/etc/init/fingerprint-goodix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-goodix.rc \
     vendor/motorola/mona/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/mona/proprietary/vendor/etc/jiigan/cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_front_main \
@@ -3553,22 +3554,39 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
+    audio.primary.default \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix.default \
+    libaudiocorehal.default \
+    libaudiocorehal.qti \
+    libaudioeffecthal.qti \
+    libsoundtriggerhal.qti \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libBSTSWAD \
     libPlatformValidatorShared \
     libRbsFlow \
+    libagm \
+    libagm_compress_plugin \
+    libagm_mixer_plugin \
+    libagm_pcm_plugin \
+    libagmclient \
+    libagmipcservice \
+    libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
     libanc_hdr \
     libanc_hdr_adapter_front_main \
     libanc_hdr_adapter_rear_main \
     libanc_hdr_adapter_rear_uw \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
+    libar-pal \
     libarcsoft_qnnhtp \
+    libaudioplatformconverter.qti \
     libbitmlengine \
     libbitmlenginev2 \
     libcalculator \
@@ -3591,6 +3609,7 @@ PRODUCT_PACKAGES += \
     libchilog \
     libcom.qti.chinodeutils \
     libets_teeclient_v3 \
+    libfmpal \
     libgf_hal \
     libhdr10plus \
     libhdr_impl \
@@ -3599,6 +3618,8 @@ PRODUCT_PACKAGES += \
     libipebpsstriping170 \
     libipebpsstriping480 \
     libjpege \
+    liblx-ar_util \
+    liblx-osal \
     libmctfengine_stub \
     libmfGhostDetection \
     libmfec \
@@ -3616,11 +3637,15 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
+    libpal_net_if \
+    libpalclient \
+    libpalipcservice \
     libportrait_repair_ppl3_ocl \
     libqll \
     libqll10 \
     libqllengine \
     libqshcamera \
+    libqtigefar \
     libsfeShiftExtrapolation \
     libswregistrationalgo \
     libtfestriping \
@@ -3632,10 +3657,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
+    audioeffectservice_qti.xml \
     manifest_IMoto_AIDL_Fingerprint.xml \
+    manifest_audiocorehal_default.xml \
+    manifest_btaudiocoreservices_qti.xml \
+    soundtrigger.qti.xml \
     vendor.qti.camera.provider.xml \
     capsense_reset \
     android.hardware.biometrics.fingerprint-service-rbs \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
+    audiohalservice.qti \
     vendor.qti.camera.provider-service_64 \
     init.oem.fingerprint2
