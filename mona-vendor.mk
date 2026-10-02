@@ -3563,7 +3563,7 @@ PRODUCT_PACKAGES += \
     libaudiocorehal.default \
     libaudiocorehal.qti \
     libaudioeffecthal.qti \
-    libsoundtriggerhal.qti \
+    libsoundtriggerhal.qti_mona \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
@@ -3639,7 +3639,7 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
-    libpal_net_if \
+    libpal_net_if_mona \
     libpalclient \
     libpalipcservice \
     libportrait_repair_ppl3_ocl \
@@ -3647,7 +3647,7 @@ PRODUCT_PACKAGES += \
     libqll10 \
     libqllengine \
     libqshcamera \
-    libqtigefar \
+    libqtigefar_mona \
     libsfeShiftExtrapolation \
     libswregistrationalgo \
     libtfestriping \

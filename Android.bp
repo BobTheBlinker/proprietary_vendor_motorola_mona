@@ -4498,7 +4498,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsoundtriggerhal.qti",
+    name: "libsoundtriggerhal.qti_mona",
+    stem: "libsoundtriggerhal.qti",
     owner: "motorola",
     strip: {
         none: true,
@@ -6845,7 +6846,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libpal_net_if",
+    name: "libpal_net_if_mona",
+    stem: "libpal_net_if",
     owner: "motorola",
     strip: {
         none: true,
@@ -7075,7 +7077,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqtigefar",
+    name: "libqtigefar_mona",
+    stem: "libqtigefar",
     owner: "motorola",
     strip: {
         none: true,
