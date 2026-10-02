@@ -7421,27 +7421,9 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-    name: "audioeffectservice_qti.xml",
-    owner: "motorola",
-    src: "proprietary/vendor/etc/vintf/manifest/audioeffectservice_qti.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_IMoto_AIDL_Fingerprint.xml",
     owner: "motorola",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_IMoto_AIDL_Fingerprint.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_audiocorehal_default.xml",
-    owner: "motorola",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_audiocorehal_default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

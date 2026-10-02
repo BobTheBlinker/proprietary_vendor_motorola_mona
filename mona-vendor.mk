@@ -3406,6 +3406,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mona/proprietary/vendor/etc/thermal-engine-mona-teams.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-mona-teams.conf \
     vendor/motorola/mona/proprietary/vendor/etc/thermal-engine-mona.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-mona.conf \
     vendor/motorola/mona/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/mona/proprietary/vendor/etc/vintf/manifest/audioeffectservice_qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/audioeffectservice_qti.xml \
+    vendor/motorola/mona/proprietary/vendor/etc/vintf/manifest/manifest_audiocorehal_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_audiocorehal_default.xml \
     vendor/motorola/mona/proprietary/vendor/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
     vendor/motorola/mona/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/mona/proprietary/vendor/firmware/goodix-csot-gt9916P-25012409-67933DE8-mona.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916P-25012409-67933DE8-mona.bin \
@@ -3657,9 +3659,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
-    audioeffectservice_qti.xml \
     manifest_IMoto_AIDL_Fingerprint.xml \
-    manifest_audiocorehal_default.xml \
     manifest_btaudiocoreservices_qti.xml \
     soundtrigger.qti.xml \
     vendor.qti.camera.provider.xml \
