@@ -3588,6 +3588,7 @@ PRODUCT_PACKAGES += \
     libar-gsl \
     libar-pal \
     libarcsoft_qnnhtp \
+    libaualgo_azp_wrapper \
     libaudioplatformconverter.qti \
     libbitmlengine \
     libbitmlenginev2 \
