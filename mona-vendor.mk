@@ -3321,7 +3321,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mona/proprietary/vendor/etc/display/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
     vendor/motorola/mona/proprietary/vendor/etc/display/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json \
     vendor/motorola/mona/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint-service-rbs2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint-service-rbs2.rc \
-    vendor/motorola/mona/proprietary/vendor/etc/init/audiohalservice_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiohalservice_qti.rc \
     vendor/motorola/mona/proprietary/vendor/etc/init/fingerprint-goodix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-goodix.rc \
     vendor/motorola/mona/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/mona/proprietary/vendor/etc/jiigan/cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_front_main \
@@ -3406,8 +3405,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mona/proprietary/vendor/etc/thermal-engine-mona-teams.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-mona-teams.conf \
     vendor/motorola/mona/proprietary/vendor/etc/thermal-engine-mona.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-mona.conf \
     vendor/motorola/mona/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/motorola/mona/proprietary/vendor/etc/vintf/manifest/audioeffectservice_qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/audioeffectservice_qti.xml \
-    vendor/motorola/mona/proprietary/vendor/etc/vintf/manifest/manifest_audiocorehal_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_audiocorehal_default.xml \
     vendor/motorola/mona/proprietary/vendor/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
     vendor/motorola/mona/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/mona/proprietary/vendor/firmware/goodix-csot-gt9916P-25012409-67933DE8-mona.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916P-25012409-67933DE8-mona.bin \
@@ -3556,40 +3553,22 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
-    audio.primary.default \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix.default \
-    libaudiocorehal.default \
-    libaudiocorehal.qti_mona \
-    libaudioeffecthal.qti_mona \
-    libsoundtriggerhal.qti_mona \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libBSTSWAD \
     libPlatformValidatorShared \
     libRbsFlow \
-    libagm \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
-    libagmipcservice \
-    libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
     libanc_hdr \
     libanc_hdr_adapter_front_main \
     libanc_hdr_adapter_rear_main \
     libanc_hdr_adapter_rear_uw \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
     libarcsoft_qnnhtp \
-    libaualgo_azp_wrapper \
-    libaudioplatformconverter.qti_mona \
     libbitmlengine \
     libbitmlenginev2 \
     libcalculator \
@@ -3612,7 +3591,6 @@ PRODUCT_PACKAGES += \
     libchilog \
     libcom.qti.chinodeutils \
     libets_teeclient_v3 \
-    libfmpal \
     libgf_hal \
     libhdr10plus \
     libhdr_impl \
@@ -3621,8 +3599,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping170 \
     libipebpsstriping480 \
     libjpege \
-    liblx-ar_util \
-    liblx-osal \
     libmctfengine_stub \
     libmfGhostDetection \
     libmfec \
@@ -3640,15 +3616,11 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
-    libpal_net_if_mona \
-    libpalclient \
-    libpalipcservice \
     libportrait_repair_ppl3_ocl \
     libqll \
     libqll10 \
     libqllengine \
     libqshcamera \
-    libqtigefar_mona \
     libsfeShiftExtrapolation \
     libswregistrationalgo \
     libtfestriping \
@@ -3661,12 +3633,9 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
     manifest_IMoto_AIDL_Fingerprint.xml \
-    manifest_btaudiocoreservices_qti.xml \
-    soundtrigger.qti.xml \
     vendor.qti.camera.provider.xml \
     capsense_reset \
     android.hardware.biometrics.fingerprint-service-rbs \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
-    audiohalservice.qti \
     vendor.qti.camera.provider-service_64 \
     init.oem.fingerprint2
