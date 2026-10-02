@@ -3561,8 +3561,8 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.goodix.default \
     libaudiocorehal.default \
-    libaudiocorehal.qti \
-    libaudioeffecthal.qti \
+    libaudiocorehal.qti_mona \
+    libaudioeffecthal.qti_mona \
     libsoundtriggerhal.qti_mona \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
@@ -3589,7 +3589,7 @@ PRODUCT_PACKAGES += \
     libar-pal \
     libarcsoft_qnnhtp \
     libaualgo_azp_wrapper \
-    libaudioplatformconverter.qti \
+    libaudioplatformconverter.qti_mona \
     libbitmlengine \
     libbitmlenginev2 \
     libcalculator \

@@ -4415,7 +4415,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudiocorehal.qti",
+    name: "libaudiocorehal.qti_mona",
+    stem: "libaudiocorehal.qti",
     owner: "motorola",
     strip: {
         none: true,
@@ -4445,7 +4446,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.core.sounddose-V1-ndk",
                 "libar-pal",
                 "libaudioserviceexampleimpl",
-                "libaudioplatformconverter.qti",
+                "libaudioplatformconverter.qti_mona",
                 "qti-audio-types-aidl-V1-ndk",
                 "libmemunreachable",
                 "libmediautils_vendor",
@@ -4464,7 +4465,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudioeffecthal.qti",
+    name: "libaudioeffecthal.qti_mona",
+    stem: "libaudioeffecthal.qti",
     owner: "motorola",
     strip: {
         none: true,
@@ -5246,7 +5248,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudioplatformconverter.qti",
+    name: "libaudioplatformconverter.qti_mona",
+    stem: "libaudioplatformconverter.qti",
     owner: "motorola",
     strip: {
         none: true,
